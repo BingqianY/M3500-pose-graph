@@ -55,4 +55,3 @@ Open plot_results.py file, add ```plot.savefig('M3500.png')``` before ```plot.sh
 ```
 python plot_results.py --initial_poses init_nodes.txt --optimized_poses after_opt_nodes.txt
 ```
-* 
