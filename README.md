@@ -50,5 +50,9 @@ We have provided a python script to visualize the results. The text files to sup
 
 ```
 cd .. #come out of build directory
+```
+Open plot_results.py file, add ```plot.savefig('M3500.png')``` before ```plot.show()```
+```
 python plot_results.py --initial_poses init_nodes.txt --optimized_poses after_opt_nodes.txt
 ```
+* 
